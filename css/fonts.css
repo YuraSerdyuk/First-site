@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Yellowtai";
+  src: url("../fonts/Yellowtail/yellowtail-regular.eot");
+  src: url('../fonts/Yellowtail/yellowtail-regular.eot?iefix') format('eot'),
+  url('../fonts/Yellowtail/yellowtail-regular.woff') format('woff'),
+  url('../fonts/Yellowtail/yellowtail-regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("../fonts/GothamBook/gotham-book-webfont.eot");
+  src: url('../fonts/GothamBook/gotham-book-webfont.eot?iefix') format('eot'),
+  url('../fonts/GothamBook/gotham-book-webfont.woff') format('woff'),
+  url('../fonts/GothamBook/gotham-book-webfont.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("../fonts/GothamMedium/gotham-medium-webfont.eot");
+  src: url('../fonts/GothamMedium/gotham-medium-webfont.eot?iefix') format('eot'),
+  url('../fonts/GothamMedium/gotham-medium-webfont.woff') format('woff'),
+  url('../fonts/GothamMedium/gotham-medium-webfont.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("../fonts/GothamBold/Gotham-Bold.eot");
+  src: url('../fonts/GothamBold/Gotham-Bold.eot?iefix') format('eot'),
+  url('../fonts/GothamBold/Gotham-Bold.woff') format('woff'),
+  url('../fonts/GothamBold/Gotham-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GnuolaneRg";
+  src: url("../fonts/GnuolaneRg/gnuolaneRg.eot");
+  src: url('../fonts/GnuolaneRg/gnuolaneRg.eot?iefix') format('eot'),
+  url('../fonts/GnuolaneRg/gnuolaneRg.woff') format('woff'),
+  url('../fonts/GnuolaneRg/gnuolaneRg.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CaeciliaLTStd";
+  src: url("../fonts/CaeciliaLTStd/CaeciliaLTStd-Roman.eot");
+  src: url('../fonts/CaeciliaLTStd/CaeciliaLTStd-Roman.eot?iefix') format('eot'),
+  url('../fonts/CaeciliaLTStd/CaeciliaLTStd-Roman.woff') format('woff'),
+  url('../fonts/CaeciliaLTStd/CaeciliaLTStd-Roman.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CaeciliaLTStdBold";
+  src: url("../fonts/CaeciliaLTStdBold/CaeciliaLTStd-Bold.eot");
+  src: url('../fonts/CaeciliaLTStdBold/CaeciliaLTStd-Bold.eot?iefix') format('eot'),
+  url('../fonts/CaeciliaLTStdBold/CaeciliaLTStd-Bold.woff') format('woff'),
+  url('../fonts/CaeciliaLTStdBold/CaeciliaLTStd-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}

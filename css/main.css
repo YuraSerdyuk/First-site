@@ -1,0 +1,1071 @@
+body {                       /* відступ off */
+  margin: 0;
+  padding: 0;
+}
+
+.bg11{                      /* фон */
+
+  height: 850px;
+
+}
+
+.logo {                        /* логотип сайту */
+  font-family: Yellowtail;
+  font-size: 67.6px;
+  color: #ffffff;
+  margin-top: 68px;
+  float: left;
+}
+
+header {
+  background-image: url(../img/Layer7.png);
+  z-index: 1;
+  position: relative;
+}
+
+.header2{
+ background-color: rgba(56, 64, 75, 0.9);
+ z-index: 5;
+ position: relative;
+
+}
+
+.container {                 /* сам контейнер */
+  width: 76%;
+  margin: 0 auto;
+  z-index: 10000000;
+  position: relative;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {                         /* навігація */
+  margin-top: 7%;
+  float: right;
+  display: inline-block;
+}
+
+p {
+  float: left;
+  display: inline-block;
+}
+
+
+
+.menu {                        /* меню */
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.menu li {                     /* меню */
+  float: left;
+  margin-right: 70px;
+  list-style: none;
+}
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+.menu li a {                   /* меню */
+  color: #ffffff;
+  font-family: Arial;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 21.6px;
+  display: inline-block;
+  padding: 0.55em 0.78em;
+}
+
+.menu li a:hover {
+  border-width: 5px;
+  border-style: solid;
+  background: #ff4b5a;
+  border-color: #ff4b5a;
+  border-radius: 25px;
+  border: 0px;
+  text-align: center;
+}
+
+.phone {                     /* телефон */
+  margin-top: 40px;
+  margin-left: 370px;
+  float: left;
+}
+
+.text {
+
+}
+
+.text1 {                         /* текст */
+  font-family: GothamBook;
+  font-size: 45px;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-left: 100px;
+  float: left;
+  line-height: 0px;
+}
+
+.text2 {                         /* текст */
+  font-family: GothamBook;
+  font-size: 26px;
+  color: #ffffff;
+  margin-top: ;
+  margin-left: 100px;
+  float: left;
+  line-height: 30px;
+  text-align: left;
+}
+
+.text3 {                         /* текст */
+  font-family: GothamBook;
+  font-size: 26px;
+  color: #ffffff;
+  padding-top: 100px;
+  margin-left: -600px;
+  float: left;
+  line-height: 2;
+}
+
+.get {                           /* текст */
+  font-family: GothamBook;
+  font-size: 45px;
+  color: #ffffff;
+  padding-top: 300px;
+  margin-left: -600px;
+  float: left;
+  line-height: 0px;
+  text-decoration: none;
+}
+
+.dollars {                        /* силка на долари */
+  font-family: GothamBook;
+  font-size: 45px;
+  color: #29af61;
+  padding-top: 300px;
+  margin-left: 17px;
+  float: left;
+  line-height: 0px;
+  text-decoration: none;
+}
+                    /*редагування стрілочок*/
+.slick-prev {                 /*ліва*/
+  margin-top: 270px;
+  margin-left: 60px;
+  position:absolute;
+  z-index: 99999999999999;
+  border: 2px solid #ffffff;
+}
+
+.slick-next {                  /*права*/
+  margin-left: 1740px;
+  margin-top: -530px;
+  position: absolute;
+  border: 2px solid #ffffff;
+}
+
+#slick-slide00 {
+  margin-left: 950px;
+  float: left;
+  list-style: none;
+}
+
+#slick-slide01 {
+  padding-left: 980px;
+  list-style: none;
+}
+
+
+.slick-dots li button{
+
+}
+
+
+ /*  КОНТЕЙНЕР 2 */
+
+
+
+
+.iMacDisplay {
+  position: absolute;
+  padding-top: 238px;
+  padding-left: 29px;
+}
+
+.sl3 {
+  margin-left: 27px;
+  width: 80%;
+}
+
+
+.iMac {
+  width: 100%;
+  float: left;
+  padding-top: 27px;
+  padding-bottom: 200px;
+}
+
+.iMacbg {
+  margin-top: 209px;
+  width: 50%;
+  float: left;
+  background-image: url(../img/iMac.png);
+  background-repeat: no-repeat;
+}
+
+                    /*редагування стрілочок*/
+.slick-prev3 {                 /*ліва*/
+padding-top: 152px;
+position: absolute;
+z-index: 999999999999999999999999999;
+
+}
+
+.slick-next3 {                  /*права*/
+padding-left: 485px;
+margin-bottom: 400px;
+position: absolute;
+z-index: 999999999999999999999999999999999;
+}
+
+
+.elements {
+  width: 50%;
+  float: right;
+  padding-top: 209px;
+
+}
+.iMacText1 {
+  font-family: GothamBold;
+  color: #444e5d;
+  font-size: 45px;
+  line-height: 0px;
+}
+
+.iMacText2 {
+  font-family: GothamBook;
+  color: #ff4b5a;
+  font-size: 26px;
+  line-height: 0px;
+}
+
+.iMacText3 {
+  font-family: GothamBook;
+  color: #4d5866;
+  font-size: 26px;
+}
+
+.iMacButtom {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ff4b5a;
+  background: #ff4b5a;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: GothamBook;
+  font-size: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+
+#Mac {
+  width: 76%;
+  margin: 0 auto;
+  padding-bottom: 360px;
+}
+
+
+
+
+
+ /*  КОНТЕЙНЕР 3 */
+
+
+
+
+
+
+#video {
+  background: #f2f2f2;
+  width: 76%;
+  margin: 0 auto;
+  padding-bottom: 800px;
+}
+
+.textVideo {
+  width: 50%;
+  padding-top: 820px;
+  float: left;
+  padding-top: 190px;
+}
+
+.textVideo2 {
+  font-family: GothamBold;
+  font-size: 45px;
+  color: #444e5d;
+  line-height: 0;
+}
+
+.textVideo3 {
+  font-family: GothamBook;
+  color: #1fab5a;
+  font-size: 26px;
+  line-height: 0px;
+}
+
+.textVideo4 {
+  font-family: GothamBook;
+  color: #4d5866;
+  font-size: 26px;
+}
+
+.textVideo5 {
+  width: 50%;
+}
+
+.videoButtom {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1fab5a;
+  background: #1fab5a;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: GothamBook;
+  font-size: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 5px;
+  float: left;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .textVideo2 {
+    font-size: 25px;
+  }
+  .textVideo3 {
+    font-size:14px;
+  }
+  .textVideo4 {
+    font-size: 14px;
+  }
+  .videoButtom {
+    border-width: 2.5px;
+    padding: 7.5px;
+    font-size: 12.5px;
+  }
+}
+
+.video {
+  width: 50%;
+  padding-top: 210px;
+  float: left;
+  padding-bottom: 190px;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+
+/*Контейнер 4*/
+
+
+
+
+
+
+#response {
+  background: #edebeb;
+}
+
+.total {
+  width: 76%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.quotesResponse {
+  height: 50%;
+  padding-top: 130px;
+
+}
+
+.one {
+  font-family: GnuolaneRg;
+  font-size: 270.5px;
+  text-align: center;
+  line-height: 0;
+  margin-top: 0px;
+  color: #65837e;
+}
+
+.two {
+  font-family: CaeciliaLTStd;
+  font-size: 45.5px;
+  text-align: center;
+  color: #746f6f;
+  margin-top: 0px;
+}
+
+.textResponse {
+  height: 50%;
+  padding-top: 100px;
+  margin-left: 425px;
+}
+
+
+
+
+.frank {
+  font-family: CaeciliaLTStdBold;
+  font-weight: bold;
+  font-size: 43.5px;
+  line-height: 0px;
+  float: right;
+  padding-right: 150px;
+  padding-bottom: 100px;
+
+}
+
+.work1 {
+  font-family: CaeciliaLTStd;
+  font-size:33.5px;
+  color: #6a6565;
+  float: right;
+  padding-top:10px;
+  padding-right: 460px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+  .two {
+    font-size: 35px;
+  }
+  .one {
+    font-size: 250px;
+  }
+  .work1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .two {
+    font-size: 25px;
+  }
+  .one {
+    font-size: 200px;
+  }
+  .work1 {
+    font-size: 18px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/*Контейнер 5 */
+
+
+
+
+
+.container3 {
+  width: 76%;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding-bottom: 1250px;
+}
+
+.leftText {
+  width: 50%;
+  padding-top: 1px;
+  float: left;
+}
+
+.text20 {                         /* текст */
+  font-family: GothamBook;
+  font-weight: bold;
+  font-size: 45px;
+  color: #444e5d;
+  margin-top: 200px;
+  margin-left: 10px;
+  float: left;
+  line-height: 0px;
+}
+
+.text21 {                         /* текст */
+  font-family: GothamBook;
+  font-size: 26px;
+  color: #4c5662;
+  margin-top: ;
+  margin-left: 10px;
+  float: left;
+  line-height: 30px;
+}
+
+.text22 {
+  font-family: GothamBook;
+  font-size: 26px;
+  color: #4c5662;
+  margin-top: ;
+  margin-left: 10px;
+  float: left;
+  line-height: 30px;
+}
+
+
+
+.text31 {                         /* текст */
+  font-family: GothamBook;
+  font-size: 26px;
+  color: #4c5662;
+  margin-top: 1px;
+  margin-left: 1px;
+  float: left;
+  line-height: 2;
+}
+
+.get2 {                           /* текст */
+  font-family: GothamBook;
+  font-size: 45px;
+  color: #323a45;
+  margin-top: 30px;
+  margin-left: 1px;
+  float: left;
+  line-height: 0px;
+  text-decoration: none;
+}
+
+.rightPhoto {
+  width: 50%;
+  padding-top: 130px;
+  float: right;
+}
+
+.textVideo5 {
+  width: 50%;
+}
+
+.videoButtom {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1fab5a;
+  background: #1fab5a;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: GothamBook;
+  font-size: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 50px;
+  float: left;
+}
+
+
+
+
+
+/*Контейнер 6 */
+
+
+
+
+
+.titres {
+  margin: 0 auto;
+  background: #faf8f8;
+}
+
+.icons {
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: GothamBold;
+  font-size: 45px;
+  color: #444e5d;
+  text-align: center;
+  line-height: 0px;
+}
+
+.h3 {
+  font-family: GothamBook;
+  font-size: 30px;
+  color: #606e80;
+  text-align: center;
+}
+
+.client {
+  padding-top: 280px;
+  padding-bottom: 250px;
+}
+
+
+
+
+
+
+
+
+/*Контейнер 7*/
+
+
+
+
+
+
+.container7 {
+  width: 76%;
+  margin: 0 auto;
+  padding-bottom: 800px;
+}
+
+.text70 {
+  font-family: GothamBold;
+  font-size: 45px;
+  color: #444e5d;
+  text-align: center;
+  padding-top: 155px;
+}
+
+.text71 {
+  font-family: GothamBook;
+  font-weight: normal;
+  font-size: 30px;
+  color: #606e80;
+  text-align: center;
+  line-height: 0px;
+}
+
+.total_table {
+  padding-top: 145px;
+
+}
+
+
+table {
+    width: 412px; /* Ширина таблиці */
+    border: 2px solid #a1a1a1; /* Рамка біля таблиці */
+    border-collapse: collapse/* Одинарні лінії */
+   }
+   th {
+    text-align: left;
+    background: #f1f1f1;
+    border: 2px solid #a1a1a1; /* Рамка */
+   }
+
+
+.text72 {                     /*Верхній рядок таблиць*/
+  font-family: GothamMedium;
+  font-size: 45px;
+  color: #5a677b;
+  text-align: center;
+  line-height: 0px;
+}
+
+.text73 {                      /*Верхній рядок таблиць*/
+  font-family: GothamBook;
+  font-weight: normal;
+  font-size: 31px;
+  color: #999999;
+  text-align: center;
+  line-height: 3px;
+}
+
+.text74 {                      /*Нижній рядок таблиць*/
+  font-family: GothamBook;
+  font-weight: normal;
+  font-size: 31px;
+  color: #999999;
+  text-align: center;
+  line-height: 8px;
+  padding-top: 80px;
+}
+
+.text75 {                      /*Нижній рядок таблиць*/
+  font-family: GothamBook;
+  font-weight: normal;
+  font-size: 31px;
+  color: #999999;
+  text-align: center;
+  line-height: 35px;
+}
+
+
+.videoButtom3 {                /*Кнопка таблиць*/
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1fab5a;
+  background: #1fab5a;
+  border-radius: 5px;
+  padding: 15px 45px 15px 45px;
+  font-family: GothamBook;
+  font-size: 23px;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.textVideo51 {                /*Відступи кнопки таблиць*/
+  width: 100%;
+  padding-left: 110px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.table1 {                      /*Відступ від боку*/
+  float: left;
+  padding-left: 47px;
+  padding-bottom: 180px;
+}
+
+.table2 {                     /*Відступ від 1 таблиці*/
+  float: left;
+  padding-left: 72px;
+  padding-bottom: 180px;
+}
+
+.table3 {                      /*Відступ від 2 таблиці*/
+  float: left;
+  padding-left: 72px;
+  padding-bottom: 180px;
+}
+
+
+
+
+
+
+/*Контейнер 8*/
+
+
+
+
+
+
+.container81 {
+  margin: 0 auto;
+  background: #faf8f8;
+  padding-bottom: 138px;
+}
+
+.container8 {
+  width: 76%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.text82 {
+  font-family: GothamBold;
+  font-size: 45px;
+  color: #444e5d;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+hr {
+  size: 1px;
+  width: 67%;
+  align-content: center;
+  color: #b7b7b7;
+}
+
+.portpholio {
+  margin-top: 72px;
+}
+
+.layer20 {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(239, 98, 110, .8);
+  display: none;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.portpholio ul,
+.portpholio li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.portpholio li {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+}
+
+.photolio {
+  max-width: 100%;
+  display: block;
+
+}
+
+.portpholio li:hover .layer20 {
+  display: block;
+  opacity: 1;
+}
+
+.border {
+    margin-top: -100px;
+    border: 2px solid #ffe0e2;
+    max-width: 85%;
+}
+
+.textHover {
+  padding-left: 25px;
+  padding-top: 50px;
+  font-family: GothamBook;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.portpholio a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+/*Контейнер 9*/
+
+
+
+
+
+
+
+
+.bg {
+  background: url(../img/Layer10.png) no-repeat center top / cover;
+  height: 813px;
+  margin-top: 188px;
+}
+
+
+
+.twitterLogo {
+  padding-top: 155px;
+  margin: 0 auto;
+}
+
+.textLogo {
+  height: 50%;
+  padding-top: 100px;
+  padding-left: 425px;
+}
+
+.work {
+  font-family: GothamBook;
+  font-size: 26px;
+  color: #ffffff;
+  float: right;
+  padding-top: 1px;
+  padding-right: 510px;
+}
+
+.Logo9 {
+  padding-left: 70px;
+}
+
+.text92 {
+  font-family: GothamBook;
+  font-weight: lighter;
+  font-size: 26px;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+
+
+
+
+                      /*редагування стрілочок*/
+.slick-prev2 {                 /*ліва*/
+  float: left;
+  padding-top: 400px;
+
+}
+
+.slick-next2 {                  /*права*/
+  float: right;
+  padding-bottom: 500px;
+
+}
+
+
+
+
+
+
+
+
+/*Контейнер 10*/
+
+
+
+
+
+
+
+.bg2 {
+  background: url(../img/bgFooter.png) no-repeat center top / cover;
+  height: 668px;
+  padding-top: 165px;
+
+}
+
+.text101 {
+  font-family: GothamBold;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0px;
+}
+
+.text102 {
+  font-family: CaeciliaLTStd;
+  font-size: 34.5px;
+  font-weight: 100;
+  color: #dad9d9;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.endButtom {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ff4b5a;
+  background: #ff4b5a;
+  border-radius: 5px;
+  padding: 15px 45px 15px 45px;
+  font-family: GothamBook;
+  font-size: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.positionButtom {
+  padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+/*Контейнер 11*/
+
+
+
+
+
+
+
+
+#bg3 {
+  background-color: #2a3039;
+  height: 170px;
+}
+
+.container11{
+
+  width: 76%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text111 {
+  font-family: CaeciliaLTStd;
+  font-weight: bold;
+  font-size: 29.5px;
+  color: #dad9d9;
+  display: inline-block;
+}
+
+.iconsEnd {
+  padding-top: 60px;
+}
+
+.textRight {
+  float: right;
+}
+
+.text112 {
+  font-family: CaeciliaLTStd;
+  font-size: 24.5px;
+  color: #dad9d9;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+  .logo {
+    font-size: 50px;
+  }
+
+  .menu  {    /*трошки зменшив меню*/
+    font-size: 5px;
+  }
+
+}
