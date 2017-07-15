@@ -220,17 +220,18 @@ p {
 
                     /*редагування стрілочок*/
 .slick-prev3 {                 /*ліва*/
-padding-top: 152px;
-position: absolute;
-z-index: 999999999999999999999999999;
-
+  margin-top: 180px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  border: 2px solid #ffffff;
 }
 
 .slick-next3 {                  /*права*/
-padding-left: 485px;
-margin-bottom: 400px;
-position: absolute;
-z-index: 999999999999999999999999999999999;
+  margin-left: 530px;
+  position: relative;
+  bottom: 377px;
+  border: 2px solid #ffffff;
 }
 
 
@@ -891,7 +892,7 @@ hr {
 
 .textLogo {
   height: 50%;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 425px;
 }
 
@@ -901,16 +902,17 @@ hr {
   color: #ffffff;
   float: right;
   padding-top: 1px;
-  padding-right: 510px;
+  padding-right: 710px;
 }
 
 .Logo9 {
-  padding-left: 70px;
+  padding-left: 320px;
 }
 
 .text92 {
-  font-family: GothamBook;
-  font-weight: lighter;
+  padding-top: 50px;
+  font-family: CaeciliaLTStd;
+  font-weight: 100;
   font-size: 26px;
   color: #ffffff;
   text-align: center;
@@ -923,15 +925,17 @@ hr {
 
                       /*редагування стрілочок*/
 .slick-prev2 {                 /*ліва*/
-  float: left;
   padding-top: 400px;
-
+  position: absolute;
+  right: 1600px;
+  z-index: 100;
 }
 
 .slick-next2 {                  /*права*/
-  float: right;
-  padding-bottom: 500px;
-
+  overflow:hidden;
+  padding-left: 1400px;
+  position: relative;
+  bottom: 240px;
 }
 
 
@@ -1019,34 +1023,42 @@ hr {
   margin: 0 auto;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 .text111 {
   font-family: CaeciliaLTStd;
-  font-weight: bold;
+  font-weight: 100;
   font-size: 29.5px;
   color: #dad9d9;
-  display: inline-block;
+  position: relative;
+  padding-left: 200px;
+  bottom: 60px;
+
 }
 
 .iconsEnd {
   padding-top: 60px;
 }
 
+.textLeft11 {
+  height: 165px;
+
+}
+
 .textRight {
-  float: right;
+  position: relative;
+  bottom: 170px;
+  padding-left: 1050px;
 }
 
 .text112 {
   font-family: CaeciliaLTStd;
+  font-weight: 100;
   font-size: 24.5px;
   color: #dad9d9;
-  padding-left: 10px;
-  display: inline-block;
+  position: relative;
+  padding-left: 60px;
+  bottom: 55px;
 }
 
 

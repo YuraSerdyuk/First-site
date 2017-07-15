@@ -28,8 +28,8 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
 
   jQuery(".sl3").slick({
-        prevArrow: '<img class="slick-prev3" src="img/shape-left.png">',
-        nextArrow: '<img class="slick-next3" src="img/shape-right.png">',
+        prevArrow: '<img class="slick-prev3" src="img/SnapeLeftSmall.png">',
+        nextArrow: '<img class="slick-next3" src="img/SnapeRightSmall.png">',
 
 
 
