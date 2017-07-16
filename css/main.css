@@ -181,12 +181,33 @@ p {
 }
 
 
-.slick-dots li button{
 
+
+.slick-dots li button{
+  background-color: #23282f;
+  border-color: #23282f;
+  border-radius: 200px;
+  border: 1px solid #23282f;
+  text-indent:-9999px;
+  font-size: 9px;
+}
+
+.slick-dots li button:hover {
+  outline: none;
+  background-color: #6d7d92;
+  border: 1px solid #6d7d92;
 }
 
 
+
+
+
+
  /*  КОНТЕЙНЕР 2 */
+
+
+
+
 
 
 
@@ -891,7 +912,7 @@ hr {
 }
 
 .textLogo {
-  height: 50%;
+/*  height: 50%;  */
   padding-top: 50px;
   padding-left: 425px;
 }
@@ -925,7 +946,7 @@ hr {
 
                       /*редагування стрілочок*/
 .slick-prev2 {                 /*ліва*/
-  padding-top: 400px;
+  padding-top: 600px;
   position: absolute;
   right: 1600px;
   z-index: 100;
@@ -935,7 +956,7 @@ hr {
   overflow:hidden;
   padding-left: 1400px;
   position: relative;
-  bottom: 240px;
+  bottom: 400px;
 }
 
 
