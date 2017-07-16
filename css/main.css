@@ -190,9 +190,10 @@ p {
   border: 1px solid #23282f;
   text-indent:-9999px;
   font-size: 9px;
+  outline: none;
 }
 
-.slick-dots li button:hover {
+.slick-dots li button:hover{
   outline: none;
   background-color: #6d7d92;
   border: 1px solid #6d7d92;
@@ -648,11 +649,15 @@ h3 {
   text-align: center;
 }
 
-.client {
+.client a img{
   padding-top: 280px;
   padding-bottom: 250px;
+  filter: grayscale(100%);
 }
 
+.client a img:hover{
+  filter: grayscale(0%);
+}
 
 
 
@@ -757,6 +762,14 @@ table {
   color: #ffffff;
   text-decoration: none;
 
+}
+
+.videoButtom3:hover {
+  border-color: #f1f1f1;
+  background: #f1f1f1;
+  font-family: GothamBook;
+  font-size: 23px;
+  color: #1fab5a;
 }
 
 .textVideo51 {                /*Відступи кнопки таблиць*/
@@ -1039,12 +1052,9 @@ hr {
 }
 
 .container11{
-
   width: 76%;
   margin: 0 auto;
 }
-
-
 
 .text111 {
   font-family: CaeciliaLTStd;
@@ -1054,7 +1064,6 @@ hr {
   position: relative;
   padding-left: 200px;
   bottom: 60px;
-
 }
 
 .iconsEnd {
@@ -1063,7 +1072,16 @@ hr {
 
 .textLeft11 {
   height: 165px;
+}
 
+.linkText {
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.linkText:hover {
+  filter: invert(100);
 }
 
 .textRight {
