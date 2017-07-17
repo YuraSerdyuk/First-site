@@ -4,9 +4,7 @@ body {                       /* відступ off */
 }
 
 .bg11{                      /* фон */
-
   height: 850px;
-
 }
 
 .logo {                        /* логотип сайту */
@@ -657,6 +655,7 @@ h3 {
 
 .client a img:hover{
   filter: grayscale(0%);
+  transition: 0.2s all;
 }
 
 
@@ -770,6 +769,7 @@ table {
   font-family: GothamBook;
   font-size: 23px;
   color: #1fab5a;
+    transition: 0.5s all;
 }
 
 .textVideo51 {                /*Відступи кнопки таблиць*/
@@ -1011,7 +1011,7 @@ hr {
   padding-top: 70px;
 }
 
-.endButtom {
+/*.endButtom {
   border-width: 5px;
   border-style: solid;
   border-color: #ff4b5a;
@@ -1024,9 +1024,23 @@ hr {
   text-decoration: none;
   margin-top: 30px;
 }
+*/
+
+.effect {
+  margin-top: -89px;
+  transition: all .24s ease-in-out;
+}
+
+.effect:hover {
+  margin-top: 0;
+}
 
 .positionButtom {
-  padding-top: 100px;
+  height: 89px;
+  width: 307px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 805px;
 }
 
 
@@ -1078,6 +1092,7 @@ hr {
   position: relative;
   z-index: 2;
   text-decoration: none;
+  transition: 0.5s all;
 }
 
 .linkText:hover {
