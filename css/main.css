@@ -1135,3 +1135,9 @@ hr {
   }
 
 }
+
+.slick-dots .slick-active button {
+    outline: none;
+    background-color: #6d7d92;
+    border: 1px solid #6d7d92;
+}
