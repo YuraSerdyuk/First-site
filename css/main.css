@@ -215,20 +215,6 @@ p {
 }
 
 
-                                /* силка на долари */
-/*.dollars {
-  font-family: GothamBook;
-  font-size: 45px;
-  color: #29af61;
-  padding-top: 50px;
-  margin-left: 1%;
-  float: left;
-  line-height: 0px;
-  text-decoration: none;
-} */
-
-
-
 @media screen and (min-width: 2469px) {
   .get {
     padding-right: 100px;
@@ -393,6 +379,7 @@ p {
   position:absolute;
   z-index: 99999999999999;
   border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 .slick-next {                  /*права*/
@@ -400,6 +387,7 @@ p {
   margin-top: -535px;
   position: absolute;
   border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 #slick-slide00 {
@@ -442,11 +430,12 @@ p {
   text-indent:-9999px;
   font-size: 9px;
   outline: none;
+  cursor: pointer;
 }
 
 .slick-dots li button:hover{
   outline: none;
-  background-color: #6d7d92;
+  background-color: #a7adb7;
   border: 1px solid #6d7d92;
 }
 
@@ -501,14 +490,15 @@ p {
   position: absolute;
   z-index: 100;
   border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 .slick-next3 {                  /*права*/
-
   position: absolute;
   bottom: 57%;
   left: 94%;
   border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1116,13 +1106,15 @@ h3 {
 }
 
 .client {
-  padding-bottom: 400px;
+  padding-top: 180px;
+  padding-bottom: 265px;
 }
 
 .client1 {
   width: 15.20%;
   height: 10%;
   background-image: url(../img/client1.png);
+  filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
@@ -1133,6 +1125,7 @@ h3 {
   width: 15.20%;
   height: 90px;
   background-image: url(../img/client2.png);
+  filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
@@ -1143,6 +1136,7 @@ h3 {
   width: 15.20%;
   height: 90px;
   background-image: url(../img/client3.png);
+  filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
@@ -1153,6 +1147,7 @@ h3 {
   width: 15.20%;
   height: 90px;
   background-image: url(../img/client4.png);
+  filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
@@ -1163,20 +1158,45 @@ h3 {
   width: 15.20%;
   height: 90px;
   background-image: url(../img/client5.png);
+  filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
 }
 
-.client a img{
+.client div a img{
   padding-top: 280px;
   padding-bottom: 250px;
   filter: grayscale(100%);
 }
 
-.client a img:hover{
+.client1:hover{
   filter: grayscale(0%);
   transition: 0.2s all;
+  cursor: pointer;
+}
+
+.client2:hover{
+  filter: grayscale(0%);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.client3:hover{
+  filter: grayscale(0%);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.client4:hover{
+  filter: grayscale(0%);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.client5:hover{
+  filter: grayscale(0%);
+  transition: 0.2s all;
+  cursor: pointer;
 }
 
 
@@ -1322,6 +1342,8 @@ table {
   float: left;
   padding-left: 47px;
   padding-bottom: 180px;
+  position: relative;
+  z-index: 10000;
 }
 
 .table2 {                     /*Відступ від 1 таблиці*/
@@ -1337,6 +1359,31 @@ table {
 }
 
 
+@media screen and (max-width: 1877px) {
+  .container7 {
+    padding-bottom: 1600px;
+  }
+  .table2 {
+    position: absolute;
+    padding-top: 700px;
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .container7 {
+    padding-bottom: 2200px;
+  }
+  .table3 {
+    position: absolute;
+    padding-top: 1400px;
+    padding-left: 20%;
+  }
+  .table1 {
+    position: absolute;
+    padding-left: 20%;
+  }
+}
 
 
 
@@ -1393,6 +1440,37 @@ hr {
   -o-transition: all .5s;
   transition: all .5s;
 }
+
+
+@media screen and (max-width: 1194px) {
+ .layer21 {
+   right: 152px;
+ }
+ .layer22 {
+   bottom: 252px;
+   left: 305px;
+ }
+ .layer23 {
+   right: 305px;
+ }
+ .layer24 {
+   left: 152px;
+   bottom: 252px;
+ }
+ .layer25 {
+   bottom: 252px;
+ }
+ .layer26 {
+   bottom: 252px;
+ }
+ .layer27 {
+   bottom: 252px;
+ }
+ .container81 {
+   padding-bottom: 0px;
+ }
+}
+
 
 .portpholio ul,
 .portpholio li {
@@ -1464,22 +1542,23 @@ hr {
 }
 
 .textLogo {
-/*  height: 50%;  */
   padding-top: 50px;
-  padding-left: 425px;
+
 }
 
 .work {
   font-family: GothamBook;
   font-size: 26px;
   color: #ffffff;
-  float: right;
   padding-top: 1px;
-  padding-right: 710px;
+  text-align: center;
+  padding-left: 10%;
 }
 
 .Logo9 {
-  padding-left: 320px;
+  position: absolute;
+  padding-left: 9%;
+  bottom: 485px;
 }
 
 .text92 {
@@ -1493,26 +1572,58 @@ hr {
 }
 
 
+@media screen and (min-width: 2000px) {
+  .Logo9 {
+    padding-left: 10%;
+  }
+}
 
+@media screen and (max-width: 1600px) {
+  .Logo9 {
+    padding-left: 8%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .Logo9 {
+    padding-left: 7%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Logo9 {
+    padding-left: 6%;
+  }
+}
 
 
                       /*редагування стрілочок*/
 .slick-prev2 {                 /*ліва*/
   padding-top: 600px;
   position: absolute;
-  right: 1600px;
+  right: 83.33%;
   z-index: 100;
+  cursor: pointer;
 }
 
                                /*права*/
-/*.slick-next2 {
+.slick-next2 {
   overflow:hidden;
-  padding-left: 1400px;
+  padding-left: 72.91%;
   position: relative;
   bottom: 400px;
-}*/
+  cursor: pointer;
+}
 
 
+@media screen and (max-width: 1000px) {
+  .slick-next2 {
+    visibility: collapse;
+  }
+  .slick-prev2 {
+    visibility: collapse;
+  }
+}
 
 
 
@@ -1551,24 +1662,27 @@ hr {
   padding-top: 70px;
 }
 
-/*.endButtom {
-  border-width: 5px;
-  border-style: solid;
-  border-color: #ff4b5a;
-  background: #ff4b5a;
-  border-radius: 5px;
-  padding: 15px 45px 15px 45px;
-  font-family: GothamBook;
-  font-size: 23px;
-  color: #ffffff;
-  text-decoration: none;
-  margin-top: 30px;
+@media screen and (max-width: 1000px) {
+  .text101 {
+    font-size: 33.75px;
+  }
+  .text102 {
+    font-size: 25.875px;
+  }
+  .bg2 {
+    height: 508px;
+  }
 }
-*/
+
+.textCenter {
+  text-align: center;
+  margin-bottom: 80px;
+}
 
 .effect {
   margin-top: -89px;
   transition: all .24s ease-in-out;
+  cursor: pointer;
 }
 
 .effect:hover {
@@ -1579,8 +1693,8 @@ hr {
   height: 89px;
   width: 307px;
   overflow: hidden;
-  margin-top: 100px;
-  margin-left: 505px; /*поставити на 805px*/
+  margin-top: 0px;
+  margin: 0 auto;
 }
 
 
@@ -1600,7 +1714,7 @@ hr {
 
 
 
-/*#bg3 {
+#bg3 {
   background-color: #2a3039;
   height: 170px;
 }
@@ -1608,6 +1722,7 @@ hr {
 .container11{
   width: 76%;
   margin: 0 auto;
+  height: 100px;
 }
 
 .text111 {
@@ -1618,6 +1733,8 @@ hr {
   position: relative;
   padding-left: 200px;
   bottom: 60px;
+  z-index: 10;
+  cursor: text;
 }
 
 .iconsEnd {
@@ -1630,7 +1747,7 @@ hr {
 
 .linkText {
   position: relative;
-  z-index: 2;
+  z-index: 11;
   text-decoration: none;
   transition: 0.5s all;
 }
@@ -1642,7 +1759,7 @@ hr {
 .textRight {
   position: relative;
   bottom: 170px;
-  padding-left: 1050px;
+  padding-left: 71.91%;
 }
 
 .text112 {
@@ -1653,7 +1770,17 @@ hr {
   position: relative;
   padding-left: 60px;
   bottom: 55px;
-} */
+}
+
+@media screen and (max-width: 1400px) {
+  .text111 {
+    font-size: 20.65px;
+    bottom: 50px;
+  }
+  .text112 {
+    font-size: 17.15px;
+  }
+}
 
 
 
